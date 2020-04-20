@@ -9,11 +9,10 @@ class EmailAddressParser
         @emails = emails
     end
     def parse
-        a = emails.split.map do |email|
+        emails.split.map do |email|
            email.split(",")
            #binding.pry
         end
-        #binding.pry
-        a.flatten.uniq
+        .flatten.uniq
     end
 end
