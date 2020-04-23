@@ -22,7 +22,7 @@ end
 
 #binding.pry
 
-    # def parse   @email_addresses.split(/ |, |,/).uniq
+    # def parse 
     #     @email_addresses.split.map {|email_address|
     #     email_address.split(",")}.flatten.uniq  
     # end 
